@@ -1,0 +1,75 @@
+body { 
+    background-color: rgb(223, 211, 193);
+}
+
+header {
+    margin-top: 75px;
+}
+
+h1 {
+    padding-left: 35px;
+}
+
+h2, h3, h4, h5, h6, p, form {
+    padding-left: 50px;
+}
+
+ul {
+    padding-left: 65px;
+}
+
+h1 { font-weight: bold; color: #003399; }
+h2 { font-weight: bold; color: #416396; }
+h3 { font-weight: bold; color: #416396; font-size: 12; }
+h4 { font-weight: bold; font-style: italic; color: #416396; }
+
+p { margin-left: 0em; }
+
+table { font-family: Verdana, Arial, Helvetica, sans-serif; }
+caption { font-weight: bold; }
+th { font-weight: bold; background-color: blue; color: white; padding: 2px; }
+td { padding: 2px; }
+/* tr { background-color: white; } */
+
+table.bordered    { border: solid; border-width: thin; }
+table.bordered td { border: solid; border-width: thin; }
+table.bordered th { border: solid; border-width: thin; border-color: black; }
+
+address { margin-left: 0in; font-style: italic; }       
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.alert { font-weight: bold; font-style: italic; color: red; }
+
+.eg { 
+    font-family: Monaco, Courier, "Courier New", monospace;
+    background-color: #FFFFE0;
+    border-style: groove; 
+    border: thin;
+    padding: 5px;
+}
+
+.antispam { display:none;}
+
+.sort { display: flex; width: 60em; }
+.sort-subsection { flex-grow: 1; }
+
+input[type="text"] { width: 40em; }
+textarea { width: 40em; height: 10em; margin-bottom: 1em; }
+input[type="submit"] { width: 10em; margin: auto; margin-bottom: 1em; }
+
+
+.mainlist { list-style-type: none; }
+.mainlist li { font-size: 12pt; font-weight: bold; padding-top: 0.5em; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.watch-info-section { margin-bottom: 2em; background-color: rgb(231, 223, 207); border: solid grey 1px; width: 90%; margin-left: 2.5%; }
+
+.sub-heading { padding-left: 20px; padding-top: 20px; }
+
+.review { margin-bottom: 2em; background-color: rgb(231, 223, 207); width: 90%; margin-left: 2.5%; }
+.review-section { margin-top: 2em; margin-bottom: 2em; }
+.review-text { margin-bottom: 0.5em; }
+.review-edit-delete { font-size: 9pt; padding-bottom: 20px; }
